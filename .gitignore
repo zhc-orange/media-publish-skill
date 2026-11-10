@@ -1,0 +1,23 @@
+# 依赖
+node_modules/
+
+# Chrome 配置 / 登录态（绝对不要提交）
+media-publish-profile/
+*-profile/
+chrome-profile/
+
+# 运行时产物
+*.log
+*.jsonl
+screenshots/
+*.png
+!docs/**/*.png
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
